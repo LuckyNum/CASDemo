@@ -131,6 +131,19 @@
                     <artifactId>cas-server-support-json-service-registry</artifactId>
                     <version>${cas.version}</version>
                 </dependency>
+
+                <!-- Swagger API -->
+                <dependency>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-documentation-swagger</artifactId>
+                    <version>${cas.version}</version>
+                </dependency>
+                <!-- REST 接口 -->
+                <dependency>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-support-rest</artifactId>
+                    <version>${cas.version}</version>
+                </dependency>
             </dependencies>
         </profile>
 
